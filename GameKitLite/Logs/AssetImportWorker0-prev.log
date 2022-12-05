@@ -15,11 +15,11 @@ C:/Users/adamm/Desktop/School/Repositories/GAME1304Final/GameKitLite
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57760
+58247
 Successfully changed project path to: C:/Users/adamm/Desktop/School/Repositories/GAME1304Final/GameKitLite
 C:/Users/adamm/Desktop/School/Repositories/GAME1304Final/GameKitLite
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001221 seconds.
+Registered in 0.001305 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
+- Completed reload, in  0.890 seconds
 Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (31ms)
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (33ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (278ms)
-			LoadAssemblies (30ms)
+		EndReloadAssembly (282ms)
+			LoadAssemblies (32ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (112ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (114ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (53ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
+Registered in 0.004922 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
+- Completed reload, in  0.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.6 MB.
-System memory in use after: 190.8 MB.
+System memory in use before: 190.7 MB.
+System memory in use after: 190.9 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3148.
-Total: 2.701300 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.088300 ms MarkObjects: 2.278900 ms  DeleteObjects: 0.082900 ms)
+Total: 3.460000 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.943300 ms  DeleteObjects: 0.129500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,273 +134,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/LoadingCanvas.prefab
-  artifactKey: Guid(83d0619896c6b844c852388c2502727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/LoadingCanvas.prefab using Guid(83d0619896c6b844c852388c2502727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895bc55b10200f44291967dfb4c81eb8') in 0.067641 seconds 
-  Import took 0.071046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/UICanvas.prefab
-  artifactKey: Guid(eb72f36523dcf684f9ca37da45adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/UICanvas.prefab using Guid(eb72f36523dcf684f9ca37da45adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb0a260fd089b9af58bfb7a252f5e1') in 0.035610 seconds 
-  Import took 0.039120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/PanelCanvas.prefab
-  artifactKey: Guid(2208ab824ba66ab4eaafed9162a13177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/PanelCanvas.prefab using Guid(2208ab824ba66ab4eaafed9162a13177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e27aaf098d5f18d11ddcea7a81f1c5a') in 0.015783 seconds 
-  Import took 0.018812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/HealthCanvas.prefab
-  artifactKey: Guid(2d2745d2a8668e644a921a4848c9bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/HealthCanvas.prefab using Guid(2d2745d2a8668e644a921a4848c9bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd3df30930d0dee9aecf121df4f4e56') in 0.007037 seconds 
-  Import took 0.010134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/HealthIcon.prefab
-  artifactKey: Guid(5e2d966f076c6144ba1b3f112e14ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/HealthIcon.prefab using Guid(5e2d966f076c6144ba1b3f112e14ede1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea50aa0335ae476056d28e06b4345379') in 0.006248 seconds 
-  Import took 0.009326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/MenuCanvases.prefab
-  artifactKey: Guid(b18f8976219e1754dba4931c56a32810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/MenuCanvases.prefab using Guid(b18f8976219e1754dba4931c56a32810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c2d11653bc873046e3671ef126bb89') in 0.039307 seconds 
-  Import took 0.042354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/DialogueCanvas.prefab
-  artifactKey: Guid(114c5f41fd4099445a42c1d9bd01f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/DialogueCanvas.prefab using Guid(114c5f41fd4099445a42c1d9bd01f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3f66da1ee13397367c15a8c79dbcc8') in 0.015363 seconds 
-  Import took 0.018358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/FaderCanvas.prefab
-  artifactKey: Guid(1f09fc5337e36764a8627d149bc1c54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/FaderCanvas.prefab using Guid(1f09fc5337e36764a8627d149bc1c54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983597b8899a25ddf1197c36224ca0d') in 0.006191 seconds 
-  Import took 0.009706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs
-  artifactKey: Guid(77c866576619f784e8ee9165ec160249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs using Guid(77c866576619f784e8ee9165ec160249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776c482b81570530a957a7b6f59ca6e') in 0.004079 seconds 
-  Import took 0.006677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/3DGamekitLite/Prefabs/UIPrefabs/GameOverCanvas.prefab
-  artifactKey: Guid(2cb597c059c0637489d7a3309e26cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/UIPrefabs/GameOverCanvas.prefab using Guid(2cb597c059c0637489d7a3309e26cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093df97b90711985356b05c00c597122') in 0.014947 seconds 
-  Import took 0.017677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.828100 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX
-  artifactKey: Guid(b226f8fcabeb3794aa9db764bbfca6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX using Guid(b226f8fcabeb3794aa9db764bbfca6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a929e6599ad88a04f250bdf542255683') in 0.004630 seconds 
-  Import took 0.007823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.101965 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX/Characters
-  artifactKey: Guid(5ef74ad13b59d6444b6a748f88e3ed80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX/Characters using Guid(5ef74ad13b59d6444b6a748f88e3ed80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ddb32a4d640f546ad269e202b0f45') in 0.004453 seconds 
-  Import took 0.007682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.943296 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies
-  artifactKey: Guid(8b34075333a248042a84c7fe6987b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies using Guid(8b34075333a248042a84c7fe6987b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8376d9c2667fe4f8dc800adb80c50087') in 0.004469 seconds 
-  Import took 0.007888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.742724 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter
-  artifactKey: Guid(c077cc42fe746524298d16aeb90d96bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter using Guid(c077cc42fe746524298d16aeb90d96bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782d0e1db9424caf2394573040006bc') in 0.013206 seconds 
-  Import took 0.016435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035720 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter/AcidSplash.prefab
-  artifactKey: Guid(2a50a8340ead34c4a889cf99e9e35db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter/AcidSplash.prefab using Guid(2a50a8340ead34c4a889cf99e9e35db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671312b2618260b8da6e2038526a3369') in 1.133016 seconds 
-  Import took 1.136563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter/Spit.prefab
-  artifactKey: Guid(294784d1e17ec8b45bed8a0790b0369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/VFX/Characters/Enemies/Spitter/Spit.prefab using Guid(294784d1e17ec8b45bed8a0790b0369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8695abc0241829e59238d6c7396cb58') in 0.024645 seconds 
-  Import took 0.028127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.450389 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters
-  artifactKey: Guid(21fe58fffd5f58648905840a59f7535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters using Guid(21fe58fffd5f58648905840a59f7535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e44d7fa37b8580bfe0b98c474325504') in 0.001841 seconds 
-  Import took 0.005117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.890869 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies
-  artifactKey: Guid(c6d0d12186363b74da58ca690e0f7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies using Guid(c6d0d12186363b74da58ca690e0f7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b35b372f007d810d98c8b7e9ae13aa') in 0.001524 seconds 
-  Import took 0.004815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.053701 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper
-  artifactKey: Guid(1d5a4204913e9ae4cb5b715b00a5a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper using Guid(1d5a4204913e9ae4cb5b715b00a5a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d007a35cd0d60496b2cb6a03e93497') in 0.004816 seconds 
-  Import took 0.008374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039434 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper/Chomper.prefab
-  artifactKey: Guid(e9569c7e13e51264082910415a120d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper/Chomper.prefab using Guid(e9569c7e13e51264082910415a120d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad06e5a6ff6c5f0315cedae1c4574bb0') in 0.401440 seconds 
-  Import took 0.406066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper/ChomperRagdoll.prefab
-  artifactKey: Guid(e9582d2bf7627a5478f06709df5f184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper/ChomperRagdoll.prefab using Guid(e9582d2bf7627a5478f06709df5f184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ca8cbde840fce4e127a0523fe8ae6b') in 0.040892 seconds 
-  Import took 0.044227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.161810 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter
-  artifactKey: Guid(28615614a3620e447849473f8572d09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter using Guid(28615614a3620e447849473f8572d09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5119efac8360dba5cb447c95f0a20c') in 0.004411 seconds 
-  Import took 0.008155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038848 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter/Spitter.prefab
-  artifactKey: Guid(3ac2dd7eaceaa504dbb1b175fcef06a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter/Spitter.prefab using Guid(3ac2dd7eaceaa504dbb1b175fcef06a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310909cac6d6c4deedba0c5640e0235d') in 0.076073 seconds 
-  Import took 0.081105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter/SpitterRagdoll.prefab
-  artifactKey: Guid(498ce9a6d8cee064eb3a0ae89cd17d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Characters/Enemies/Spitter/SpitterRagdoll.prefab using Guid(498ce9a6d8cee064eb3a0ae89cd17d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9d5aad6c7a384c613ae1fc54ad5bb3') in 0.014853 seconds 
-  Import took 0.018502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1939.611219 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x1y1z.prefab
-  artifactKey: Guid(deffd211924b8b64cb60cdbaee749ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x1y1z.prefab using Guid(deffd211924b8b64cb60cdbaee749ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a7d36113ed7779a43ab837031a75a') in 0.010024 seconds 
-  Import took 0.013862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.494180 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 5x5y1z.prefab
-  artifactKey: Guid(5739ab89e63044d4dada8a6d7a4a9fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 5x5y1z.prefab using Guid(5739ab89e63044d4dada8a6d7a4a9fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff83fedb87c4d6acea4a001276453423') in 0.007072 seconds 
-  Import took 0.010549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.076795 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 5x1y5z.prefab
-  artifactKey: Guid(61d7225bf3593fb4a8f225a314a728b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 5x1y5z.prefab using Guid(61d7225bf3593fb4a8f225a314a728b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8624ff30be4e74e57ec717851fbb327f') in 0.006229 seconds 
-  Import took 0.009506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.236825 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 4x1y2z.prefab
-  artifactKey: Guid(21b9c386afd273c45a51496ad2b4bb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 4x1y2z.prefab using Guid(21b9c386afd273c45a51496ad2b4bb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88720ed31ad6ab2e83b6b015f34db00') in 0.007359 seconds 
-  Import took 0.010788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.667168 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 3x1y2z.prefab
-  artifactKey: Guid(f3c5cb987586f5c40867d3550d70218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 3x1y2z.prefab using Guid(f3c5cb987586f5c40867d3550d70218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c739a3e048dacc543ec90cde2aa549') in 0.006512 seconds 
-  Import took 0.009929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.213285 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 3x1y1z.prefab
-  artifactKey: Guid(bc7aedd1dc954e14696e7e9b2d5aa9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 3x1y1z.prefab using Guid(bc7aedd1dc954e14696e7e9b2d5aa9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dfe1007af22adff09d2e600568031c') in 0.006354 seconds 
-  Import took 0.009759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.053224 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 2x1y2z.prefab
-  artifactKey: Guid(568b3976026f2a04cb7b57c79f5ecd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 2x1y2z.prefab using Guid(568b3976026f2a04cb7b57c79f5ecd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e146284adb3bb49e4fdd405d9b175faf') in 0.006395 seconds 
-  Import took 0.009740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.917054 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x5y1z.prefab
-  artifactKey: Guid(f1a91920574748048923c2b4ea14b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x5y1z.prefab using Guid(f1a91920574748048923c2b4ea14b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d9ff77b9b2313936e962c915da2d7') in 0.006563 seconds 
-  Import took 0.010173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.339888 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x3y3z.prefab
-  artifactKey: Guid(ddbacdb6ae8f0984d94ca2408da2795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x3y3z.prefab using Guid(ddbacdb6ae8f0984d94ca2408da2795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51da1beeddc3d7d14d187faec7d7cb07') in 0.006347 seconds 
-  Import took 0.009797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.507131 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x1y2z.prefab
-  artifactKey: Guid(5a4755f64fdeb4b4caf0637f62001dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Building Blocks/Block 1x1y2z.prefab using Guid(5a4755f64fdeb4b4caf0637f62001dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50191644107b7ad1bff54465ef54bc5d') in 0.006464 seconds 
-  Import took 0.009871 seconds .
+  path: Assets/DungeonExampleHW
+  artifactKey: Guid(5a494f739c514d448ab544f6f73cfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonExampleHW using Guid(5a494f739c514d448ab544f6f73cfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c901919375335cf8e8ee712255436') in 0.008834 seconds 
+  Import took 0.012097 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
