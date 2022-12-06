@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056199732428241
-    m_Hash: 1122689967
+      ticks: 638058959424674205
+    m_Hash: 2684340226
   m_LockFileStatus:
     m_FilePath: C:/Users/adamm/Desktop/School/Repositories/GAME1304Final/GameKitLite/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638056199870707617
-    m_Hash: 2884182643
+      ticks: 638058959424729079
+    m_Hash: 311369620
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -480,16 +480,30 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -505,11 +519,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -571,6 +585,7 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
+        - 3.0.17
         compatible:
         - 1.0.2
         - 1.0.6
@@ -604,6 +619,7 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
+        - 3.0.17
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -878,12 +894,12 @@ m_PackageAssets:
         url: https://gitlab.cds.internal.unity3d.com/upm-packages/multiplayer/com.unity.multiplayer-hlapi.git
         revision: 1728a66e30f72dafce0a52a7bbf906320277bcfb
         path: 
-    - packageId: com.unity.postprocessing@2.3.0
+    - packageId: com.unity.postprocessing@3.1.1
       testable: 0
       isDirectDependency: 1
-      version: 2.3.0
+      version: 3.1.1
       source: 1
-      resolvedPath: C:\Users\adamm\Desktop\School\Repositories\GAME1304Final\GameKitLite\Library\PackageCache\com.unity.postprocessing@2.3.0
+      resolvedPath: C:\Users\adamm\Desktop\School\Repositories\GAME1304Final\GameKitLite\Library\PackageCache\com.unity.postprocessing@3.1.1
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -946,8 +962,12 @@ m_PackageAssets:
         - 3.2.1
         - 3.2.2
         verified: 3.1.1
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
       keywords: []
       registry:
         id: main
@@ -961,13 +981,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637144563160000000
+      datePublishedTicks: 637576678760000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git@github.com:Unity-Technologies/PostProcessing.git
-        revision: e6de985c41f04a5fc7c7227dd67e3e73fac834e7
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 075b452f2c4bf910a168632b3cedbd6835477ddd
         path: 
     - packageId: com.unity.probuilder@4.5.2
       testable: 0
@@ -1635,7 +1655,7 @@ m_PackageAssets:
         email: 
         url: 
       category: XR
-      type: 
+      type: asset
       description: This package includes the tracked pose driver for the legacy input
         system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
         Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
@@ -1646,10 +1666,36 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
+        - 2.1.7
         - 2.1.8
+        - 2.1.9
+        - 2.1.10
         compatible:
         - 2.1.8
-        verified: 2.1.8
+        - 2.1.9
+        - 2.1.10
+        verified: 2.1.10
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -1680,11 +1726,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637623088970000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3448,16 +3494,30 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: A framework for making any serializable field a setting, complete
         with a pre-built settings interface.
       status: 4
       errors: []
       versions:
         all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
+        - 2.0.0
+        - 2.0.1
         compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
+        - 2.0.0
+        - 2.0.1
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
@@ -3474,12 +3534,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637300096300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: nuget.mono-cecil@0.1.5-preview
@@ -3504,8 +3564,10 @@ m_PackageAssets:
       versions:
         all:
         - 0.1.5-preview
+        - 0.1.6-preview
         compatible:
         - 0.1.5-preview
+        - 0.1.6-preview
         verified: 
       dependencies: []
       resolvedDependencies: []
@@ -3524,7 +3586,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636898921580000000
       documentationUrl: 
       hasRepository: 0
       repository:
@@ -3561,10 +3623,34 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3580,7 +3666,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3602,7 +3688,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3613,8 +3699,40 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
+        - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3631,11 +3749,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
