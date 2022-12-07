@@ -135,7 +135,7 @@ ScriptsOnlyBuild:
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
-    Assets/AdamMarshall_FinalDungeon.unity:
+    Assets/AdamMarshall_FinalDungeon_Whitebox.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -245,11 +245,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3148}
     - Class: 114
       Script: {instanceID: 3180}
     - Class: 114
@@ -2487,5 +2487,5 @@ ScriptsOnlyBuild:
     className: SetGameObjectActive
   platform: 19
   scenePathNames:
-  - Assets/AdamMarshall_FinalDungeon.unity
-  playerPath: C:/Users/adamm/Desktop/School/GAME1304/Unity Build/Dungeon_Marshall_v1/GameKitLite.exe
+  - Assets/AdamMarshall_FinalDungeon_Whitebox.unity
+  playerPath: E:/School/GAME1304/AdamMarshall_FinalDungeon_Whitebox/GameKitLite.exe
